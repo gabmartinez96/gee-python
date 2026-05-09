@@ -45,6 +45,12 @@ env/
 Thumbs.db
 
 # Pastas
-data/raw/
-data/processed/
-data/external/
+data/raw/*
+data/processed/*
+data/external/*
+outputs/*
+docs/*
+
+# Mas NÃO ignora o arquivo .gitkeep dentro delas
+!data/**/.gitkeep
+!results/**/.gitkeep
